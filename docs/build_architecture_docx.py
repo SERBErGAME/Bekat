@@ -144,11 +144,39 @@ for line in lines:
     if stripped.startswith("## "):
         p = doc.add_paragraph()
         p.paragraph_format.space_before = Pt(14)
-        p.paragraph_format.space_after = Pt(4)
+        p.paragraph_format.space_after = Pt(6)
         r = p.add_run(stripped[3:])
         r.bold = True
         r.font.size = Pt(13)
         r.font.color.rgb = RGBColor(0x2D, 0x6B, 0xF0)
+        
+        # Insert image for Section 3
+        if "3. Общая техническая схема" in stripped:
+            diag_p = os.path.join(HERE, "assets", "bekat_architecture_diagram.png")
+            if os.path.exists(diag_p):
+                p_img = doc.add_paragraph()
+                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_img.paragraph_format.space_after = Pt(10)
+                p_img.add_run().add_picture(diag_p, width=Inches(6.4))
+                
+        # Insert image for Section 4
+        elif "4. Как работает алгоритм" in stripped:
+            flow_p = os.path.join(HERE, "assets", "raptor_flow_diagram.png")
+            if os.path.exists(flow_p):
+                p_img = doc.add_paragraph()
+                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_img.paragraph_format.space_after = Pt(10)
+                p_img.add_run().add_picture(flow_p, width=Inches(6.4))
+                
+        # Insert scheme for Section 5
+        elif "5. Интерактивная 3D-карта" in stripped:
+            scheme_p = os.path.join(HERE, "assets", "scheme_ru.png")
+            if os.path.exists(scheme_p):
+                p_img = doc.add_paragraph()
+                p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_img.paragraph_format.space_after = Pt(10)
+                p_img.add_run().add_picture(scheme_p, width=Inches(5.5))
+
     elif stripped.startswith("### "):
         p = doc.add_paragraph()
         p.paragraph_format.space_before = Pt(10)
@@ -159,12 +187,8 @@ for line in lines:
         r.font.color.rgb = RGBColor(0x15, 0x17, 0x1C)
     elif stripped.startswith("```"):
         continue
-    elif stripped.startswith("│") or stripped.startswith("┌") or stripped.startswith("└") or stripped.startswith("├"):
-        p = doc.add_paragraph()
-        p.paragraph_format.space_after = Pt(1)
-        r = p.add_run(stripped)
-        r.font.name = "Courier New"
-        r.font.size = Pt(8)
+    elif stripped.startswith("│") or stripped.startswith("┌") or stripped.startswith("└") or stripped.startswith("├") or stripped.startswith("▼") or stripped.startswith("──"):
+        continue
     elif stripped.startswith("* ") or stripped.startswith("- "):
         p = doc.add_paragraph(style='List Bullet')
         p.paragraph_format.space_after = Pt(2)
