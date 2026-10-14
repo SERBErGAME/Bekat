@@ -6,6 +6,18 @@ change, how long to walk and when the bus arrives. If no bus goes there, it show
 closest you can get. Author: **Rasulov Farruh** (NamDTU), for the "Eng yaxshi kreativ g‘oya"
 2026 contest.
 
+## 📱 Download & Install (Yuklab olish / Скачать)
+
+<p align="center">
+  <a href="https://github.com/SERBErGAME/Bekat/releases/latest/download/Bekat-arm64.apk">
+    <img src="qr_bekat.png" width="220" alt="Bekat QR Code" />
+  </a>
+  <br>
+  <b><a href="https://github.com/SERBErGAME/Bekat/releases/latest/download/Bekat-arm64.apk">⬇️ Download Bekat APK (ARM64 · v1.0.0 · 30 MB)</a></b>
+  <br>
+  <sub>Kamerangizni QR-kodga qarating yoki to‘g‘ridan-to‘g‘ri yuklab oling / Сканируйте QR-код для загрузки на телефон</sub>
+</p>
+
 ## Features (working prototype)
 - **3D live map**: MapLibre + OpenFreeMap/OpenStreetMap tiles, white extruded buildings,
   coloured route lines, animated buses with route badges.
