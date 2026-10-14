@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Bekat poster A3</title>
+<style>
+  :root {
+    --bg: #EEF1F6; --card: #FFFFFF; --ink: #15171C; --ink2: #5B6270; --ink3: #9AA1AE;
+    --night: #1E2024; --blue: #2D6BF0; --line: #E3E7EE;
+    --r1: #E53935; --r2: #1E6FE8; --r3: #22A55B; --r5: #F59E0B; --r7: #8B5CF6; --r9: #06B6D4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  body { font-family: "Inter", Arial, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .board { width: 1782px; height: 1260px; padding: 26px 30px 0; display: flex; flex-direction: column; gap: 16px; overflow: hidden; }
+
+  header { display: flex; align-items: center; gap: 22px; height: 128px; }
+  .brand { display: flex; flex-direction: column; gap: 6px; }
+  .badges { display: flex; gap: 7px; }
+  .b { width: 30px; height: 30px; border-radius: 9px; color: #fff; font-weight: 800; font-size: 16px; display: grid; place-items: center; }
+  .title { display: flex; align-items: baseline; gap: 18px; }
+  .title h1 { font-size: 84px; font-weight: 900; letter-spacing: -3.5px; line-height: .9; }
+  .title p { font-size: 25px; font-weight: 600; color: var(--ink2); letter-spacing: -.3px; }
+  .busart { height: 118px; margin-left: 4px; }
+  .org { margin-left: auto; display: flex; align-items: center; gap: 16px; background: var(--card); border-radius: 24px; padding: 14px 20px 14px 14px; }
+  .org img { width: 92px; height: 92px; border-radius: 50%; }
+  .org b { display: block; font-size: 21px; font-weight: 800; }
+  .org span { display: block; font-size: 14.5px; color: var(--ink2); font-weight: 600; margin-top: 3px; }
+
+  .card { background: var(--card); border-radius: 26px; padding: 20px 22px; position: relative; overflow: hidden; }
+  .label { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 800; letter-spacing: 1.6px; color: var(--ink2); text-transform: uppercase; margin-bottom: 10px; }
+  .label .b { width: 26px; height: 26px; border-radius: 8px; font-size: 13px; letter-spacing: 0; }
+  h2 { font-size: 26px; font-weight: 800; letter-spacing: -.6px; line-height: 1.12; margin-bottom: 12px; }
+  .txt { font-size: 15.5px; line-height: 1.42; color: var(--ink2); font-weight: 500; }
+  .txt b { color: var(--ink); font-weight: 700; }
+
+  .row1 { display: grid; grid-template-columns: 455px 1fr 520px; gap: 16px; height: 606px; }
+  .row2 { display: grid; grid-template-columns: 1.05fr .85fr 1fr 1.1fr; gap: 16px; height: 392px; }
+
+  /* problem */
+  ul.pts { list-style: none; display: flex; flex-direction: column; gap: 7px; margin: 2px 0 14px; }
+  ul.pts li { font-size: 16px; line-height: 1.35; padding-left: 26px; position: relative; color: var(--ink); font-weight: 500; }
+  ul.pts li::before { content: ""; position: absolute; left: 4px; top: 6px; width: 11px; height: 11px; border-radius: 50%; border: 3px solid var(--r1); background: #fff; }
+  .q { background: var(--night); color: #fff; border-radius: 18px; padding: 12px 18px; font-size: 17.5px; font-weight: 700; margin-bottom: 14px; }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .stat { background: var(--bg); border-radius: 18px; padding: 14px 16px; }
+  .stat b { display: block; font-size: 34px; font-weight: 900; letter-spacing: -1.5px; line-height: 1; }
+  .stat span { display: block; font-size: 13.5px; color: var(--ink2); margin-top: 6px; font-weight: 600; line-height: 1.25; }
+  .stat.dark { background: var(--night); } .stat.dark b { color: #7CE0A3; } .stat.dark span { color: #D6DAE2; }
+  .src { font-size: 11px; color: var(--ink3); margin-top: 10px; line-height: 1.35; font-style: italic; }
+
+  /* hero */
+  .hero { padding: 0; background: #E9EDF3; }
+  .hero > img.map { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 45% 40%; }
+  .hero .shade { position: absolute; left: 0; right: 0; top: 0; height: 230px; background: linear-gradient(#FFFFFF 0%, #FFFFFFF2 55%, #FFFFFF00 100%); }
+  .hero .head { position: absolute; left: 24px; top: 20px; right: 24px; }
+  .phones { position: absolute; left: 0; right: 0; bottom: -78px; display: flex; justify-content: center; align-items: flex-end; gap: 8px; }
+  .phones img { width: 232px; filter: drop-shadow(0 18px 30px rgba(20,30,60,.25)); }
+  .phones img:nth-child(2) { width: 262px; margin-bottom: 14px; }
+  .chips { position: absolute; left: 24px; top: 124px; display: flex; gap: 8px; z-index: 2; }
+  .chip { background: #fff; border-radius: 16px; padding: 8px 13px; font-size: 14.5px; font-weight: 700; box-shadow: 0 8px 24px rgba(27,36,64,.12); display: flex; gap: 8px; align-items: center; }
+  .chip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  /* scheme */
+  .scheme img { width: 100%; display: block; margin: -4px 0 6px; }
+  .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+  .legend div { display: flex; align-items: center; gap: 8px; font-size: 13.5px; font-weight: 600; }
+  .legend .b { width: 24px; height: 24px; border-radius: 7px; font-size: 12.5px; flex: none; }
+  .legend em { font-style: normal; color: var(--ink3); font-weight: 600; font-size: 12px; }
+  .legend .ok { color: var(--r3); }
+
+  /* steps */
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 6px; position: relative; }
+  .steps::before { content: ""; position: absolute; left: 30px; right: 30px; top: 21px; height: 5px; background: var(--r3); border-radius: 3px; }
+  .step { position: relative; text-align: center; }
+  .step .dot { width: 46px; height: 46px; border-radius: 50%; background: #fff; border: 4px solid var(--ink); margin: 0 auto 10px; display: grid; place-items: center; font-weight: 900; font-size: 18px; }
+  .step b { display: block; font-size: 15.5px; margin-bottom: 4px; }
+  .step span { font-size: 12.5px; color: var(--ink2); line-height: 1.3; display: block; }
+  .algo { margin-top: 12px; background: var(--bg); border-radius: 16px; padding: 10px 14px; font-size: 13.5px; line-height: 1.4; color: var(--ink2); }
+  .algo b { color: var(--ink); }
+
+  /* tech */
+  .stack { display: flex; flex-direction: column; gap: 7px; }
+  .layer { display: flex; gap: 12px; align-items: flex-start; background: var(--bg); border-radius: 14px; padding: 8px 12px; }
+  .layer .b { width: 26px; height: 26px; border-radius: 8px; flex: none; font-size: 12px; }
+  .layer b { display: block; font-size: 14.5px; }
+  .layer span { font-size: 12.5px; color: var(--ink2); line-height: 1.28; display: block; }
+  .flutter { margin-top: 10px; background: var(--night); color: #fff; border-radius: 14px; padding: 10px 12px; font-weight: 700; font-size: 14px; text-align: center; }
+
+  /* table */
+  table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
+  th, td { padding: 8px 8px; text-align: left; border-bottom: 1px solid var(--line); }
+  th { font-size: 12.5px; color: var(--ink2); font-weight: 700; }
+  th.me, td.me { background: #E6EEFE; font-weight: 800; color: var(--ink); }
+  th.me { background: var(--blue); color: #fff; border-radius: 10px 10px 0 0; }
+  td:first-child { font-weight: 600; color: var(--ink); }
+  td { color: var(--ink2); }
+
+  /* plan */
+  .money { display: flex; gap: 10px; margin-bottom: 12px; }
+  .money div { flex: 1; background: var(--bg); border-radius: 16px; padding: 10px 14px; }
+  .money b { display: block; font-size: 26px; font-weight: 900; letter-spacing: -1px; }
+  .money span { font-size: 12.5px; color: var(--ink2); font-weight: 600; }
+  .tl { position: relative; display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin: 4px 0 10px; }
+  .tl::before { content: ""; position: absolute; left: 16px; right: 16px; top: 9px; height: 4px; background: var(--r7); border-radius: 2px; }
+  .tl div { position: relative; text-align: center; font-size: 11.5px; color: var(--ink2); line-height: 1.25; }
+  .tl div::before { content: ""; display: block; width: 14px; height: 14px; border-radius: 50%; background: #fff; border: 3px solid var(--ink); margin: 1px auto 6px; }
+  .tl b { display: block; color: var(--ink); font-size: 12.5px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .kpis div { background: var(--bg); border-radius: 14px; padding: 8px 10px; }
+  .kpis b { display: block; font-size: 20px; font-weight: 900; color: var(--blue); }
+  .kpis span { font-size: 11.5px; color: var(--ink2); line-height: 1.25; display: block; }
+
+  footer { margin-top: auto; height: 50px; margin-left: -30px; margin-right: -30px; padding: 0 30px; background: var(--night); color: #D6DAE2; display: flex; align-items: center; gap: 26px; font-size: 14px; }
+  footer b { color: #fff; }
+  footer .line { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  footer .line i { width: 34px; height: 6px; border-radius: 3px; display: inline-block; }
+</style>
+</head>
+<body>
+<div class="board">
+  <header>
+    <div class="brand">
+      <div class="badges" id="badges"></div>
+      <div class="title"><h1>Bekat</h1><p data-t="tagline"></p></div>
+    </div>
+    <img class="busart" src="../assets/bus.png" alt="">
+    <div class="org">
+      <img src="img/namdtu_logo.jpeg" alt="NamDTU">
+      <div><b data-t="uni"></b><span data-t="contest"></span><span data-t="author"></span></div>
+    </div>
+  </header>
+
+  <section class="row1">
+    <div class="card">
+      <div class="label"><span class="b" style="background:var(--r1)">1</span><span data-t="l1"></span></div>
+      <h2 data-t="h1"></h2>
+      <ul class="pts" data-list="pts"></ul>
+      <div class="q" data-t="q"></div>
+      <div class="stats" id="stats"></div>
+      <div class="src" data-t="src"></div>
+    </div>
+
+    <div class="card hero">
+      <img class="map" src="../assets/map_center.png" alt="">
+      <div class="shade"></div>
+      <div class="head">
+        <div class="label"><span class="b" style="background:var(--r2)">2</span><span data-t="l2"></span></div>
+        <h2 data-t="h2" style="font-size:30px;max-width:640px"></h2>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="phones">
+        <img data-src="phone_02_home" alt="">
+        <img data-src="phone_05_plan" alt="">
+        <img data-src="phone_06_trip" alt="">
+      </div>
+    </div>
+
+    <div class="card scheme">
+      <div class="label"><span class="b" style="background:var(--r3)">3</span><span data-t="l3"></span></div>
+      <h2 data-t="h3"></h2>
+      <img data-src="scheme" alt="">
+      <div class="legend" id="legend"></div>
+    </div>
+  </section>
+
+  <section class="row2">
+    <div class="card">
+      <div class="label"><span class="b" style="background:var(--r5)">4</span><span data-t="l4"></span></div>
+      <h2 data-t="h4" style="margin-bottom:8px"></h2>
+      <div class="steps" id="steps"></div>
+      <div class="algo" data-t="algo"></div>
+    </div>
+    <div class="card">
+      <div class="label"><span class="b" style="background:var(--r7)">5</span><span data-t="l5"></span></div>
+      <h2 data-t="flutter" style="font-size:19px;margin-bottom:9px"></h2>
+      <div class="stack" id="stack"></div>
+    </div>
+    <div class="card">
+      <div class="label"><span class="b" style="background:var(--r9)">6</span><span data-t="l6"></span></div>
+      <table id="tbl"></table>
+    </div>
+    <div class="card">
+      <div class="label"><span class="b" style="background:var(--r1)">7</span><span data-t="l7"></span></div>
+      <div class="money" id="money"></div>
+      <div class="tl" id="tl"></div>
+      <div class="kpis" id="kpis"></div>
+    </div>
+  </section>
+
+  <footer>
+    <span><b data-t="fauthor"></b></span>
+    <span data-t="fcontact"></span>
+    <span data-t="fmap"></span>
+    <span class="line"><i style="background:var(--r1)"></i><i style="background:var(--r2)"></i><i style="background:var(--r3)"></i><i style="background:var(--r5)"></i><i style="background:var(--r7)"></i><i style="background:var(--r9)"></i></span>
+  </footer>
+</div>
+
+<script>
+const ROUTES = [["1","r1"],["2","r2"],["3","r3"],["5","r5"],["7","r7"],["9","r9"]];
+const T = {
+  uz: {
+    tagline: "Namangan avtobuslari uchun aqlli marshrut xaritasi",
+    uni: "Namangan davlat texnika universiteti", contest: "“Eng yaxshi kreativ g‘oya” respublika tanlovi · 2026", author: "Muallif: Rasulov Farruh",
+    l1: "Muammo", h1: "“Qaysi avtobus? Qayerda almashaman?”",
+    pts: ["Shaharda yangi avtobuslar ko‘paymoqda, yo‘nalishlar qayta tuzilmoqda", "To‘g‘ridan-to‘g‘ri avtobus bo‘lmasa — odamlar taksiga o‘tadi", "Almashinuvli yo‘lni sodda ko‘rsatadigan vosita yo‘q"],
+    q: "Chorsudan Yuksalishga qanday boraman?",
+    stats: [["731,3k", "Namangan shahri aholisi"], ["130", "zamonaviy avtobus"], ["10", "brutto-shartnomali yo‘nalish"], ["0", "yo‘nalish ochiq xaritada (OSM)"]],
+    src: "Manbalar: namstat.uz (01.04.2026), yuz.uz (03.10.2026), gazeta.uz (24.09.2026), OpenStreetMap so‘rovi (14.10.2026)",
+    l2: "Yechim", h2: "Manzilni tanlang — avtobus, almashinuv va piyoda yo‘lni ko‘ring",
+    chips: [["r9", "№9 → №7 · 1 almashinuv"], ["r3", "Avtobus 3 daqiqada"], ["r2", "O‘zbek · Русский · English"]],
+    l3: "Metro uslubidagi sxema", h3: "Butun tarmoq — bitta sxemada",
+    real: "tasdiqlangan", demo: "namuna",
+    names: {"1":"Otchopar – Taxtako‘prik","2":"Otchopar – Chorsu","3":"Yuksalish – Chorsu","5":"Aeroport – Lola bozori","7":"Gulbog‘ – Vokzal","9":"Yangi Namangan – Viloyat bolalar kasalxonasi"},
+    l4: "Qanday ishlaydi", h4: "4 qadam, minimal matn",
+    steps: [["Qayerga?", "Qidiring yoki xaritaga bosing"], ["Variantlar", "Eng tez yo‘l va almashinuvlar"], ["Yo‘lga", "Avtobus necha daqiqada keladi"], ["Yetib keldingiz", "Qolgan bekatlar va vaqt"]],
+    algo: "<b>RAPTOR</b> algoritmi telefon ichida 1 soniyadan tez hisoblaydi. Manzilga avtobus bormasa — <b>eng yaqin bekatgacha</b> yo‘l va qolgan piyoda masofa ko‘rsatiladi.",
+    l5: "Texnologiya",
+    stack: [["r5", "Ma’lumot", "Bekatlar va yo‘nalishlar GPS bilan yig‘iladi, GTFS formatida"], ["r2", "Telefonda", "Marshrut va jadval internetsiz ishlaydi"], ["r3", "3D xarita", "MapLibre + OpenStreetMap, jonli avtobuslar"], ["r7", "Shahar uchun", "Anonim talab xaritasi — yangi yo‘nalishlar uchun dalil"]],
+    flutter: "Flutter: Android · iOS · Web — bitta kod",
+    l6: "Analoglar",
+    tbl: [["", "Yandex", "OSM ilovalar", "Bekat"], ["Jonli avtobus", "Bor", "Yo‘q", "2-bosqich"], ["Tarmoq sxemasi", "Yo‘q", "Yo‘q", "Bor"], ["Eng yaqin nuqta", "—", "—", "Bor"], ["Talab tahlili", "Yo‘q", "Yo‘q", "Bor"], ["Namangan bazasi", "Yopiq", "0", "Ochiq"]],
+    l7: "Reja · smeta · KPI",
+    money: [["18 mln", "so‘m smeta"], ["3 oy", "pilotgacha"], ["Bepul", "aholi uchun · B2G"]],
+    tl: [["1–3 h", "GPS bilan bekatlar"], ["3–5 h", "Ilova, 3 til"], ["6–8 h", "Marshrut, sxema, reliz"], ["9–12 h", "100+ foydalanuvchi pilot"], ["Keyin", "Jonli GPS, Andijon"]],
+    kpis: [["100%", "yo‘nalishlar raqamli"], ["< 1 s", "marshrut"], ["100+", "pilot foydalanuvchi"], ["80%+", "yo‘lni topdi"]],
+    fauthor: "Rasulov Farruh · NamDTU", fcontact: "Prototip ishlaydi: Android · iOS · veb", fmap: "Xarita: © OpenStreetMap ishtirokchilari, OpenFreeMap · №5, №7, №9 — namuna",
+  },
+  ru: {
+    tagline: "Умная карта автобусных маршрутов Намангана",
+    uni: "Наманганский государственный технический университет", contest: "Конкурс «Лучшая креативная идея» · 2026", author: "Автор: Расулов Фаррух",
+    l1: "Проблема", h1: "«Какой автобус? Где пересесть?»",
+    pts: ["В городе всё больше новых автобусов, маршруты меняются", "Нет прямого автобуса — люди едут на такси", "Нет простого инструмента для пути с пересадками"],
+    q: "Как доехать от Чорсу до Юксалиша?",
+    stats: [["731,3k", "жителей Намангана"], ["130", "современных автобусов"], ["10", "маршрутов по брутто-контракту"], ["0", "маршрутов на открытой карте (OSM)"]],
+    src: "Источники: namstat.uz (01.04.2026), yuz.uz (03.10.2026), gazeta.uz (24.09.2026), запрос к OpenStreetMap (14.10.2026)",
+    l2: "Решение", h2: "Выберите место — увидите автобус, пересадку и путь пешком",
+    chips: [["r9", "№9 → №7 · 1 пересадка"], ["r3", "Автобус через 3 мин"], ["r2", "O‘zbek · Русский · English"]],
+    l3: "Схема в стиле метро", h3: "Вся сеть — на одной схеме",
+    real: "подтверждён", demo: "пример",
+    names: {"1":"Отчопар – Тахтакуприк","2":"Отчопар – Чорсу","3":"Юксалиш – Чорсу","5":"Аэропорт – рынок Лола","7":"Гульбог – Вокзал","9":"Янги Наманган – Обл. детская больница"},
+    l4: "Как это работает", h4: "4 шага, минимум текста",
+    steps: [["Куда?", "Поиск или нажатие на карту"], ["Варианты", "Самый быстрый путь и пересадки"], ["Поехали", "Через сколько минут автобус"], ["На месте", "Остановки и время до цели"]],
+    algo: "Алгоритм <b>RAPTOR</b> считает маршрут прямо в телефоне быстрее 1 секунды. Если автобус туда не идёт — путь <b>до ближайшей остановки</b> и остаток пешком.",
+    l5: "Технологии",
+    stack: [["r5", "Данные", "Остановки и маршруты собираются с GPS, формат GTFS"], ["r2", "В телефоне", "Маршруты и расписание без интернета"], ["r3", "3D-карта", "MapLibre + OpenStreetMap, живые автобусы"], ["r7", "Для города", "Анонимная карта спроса — довод для новых маршрутов"]],
+    flutter: "Flutter: Android · iOS · Web — один код",
+    l6: "Аналоги",
+    tbl: [["", "Яндекс", "OSM-приложения", "Bekat"], ["Живые автобусы", "Есть", "Нет", "2-й этап"], ["Схема сети", "Нет", "Нет", "Есть"], ["Ближайшая точка", "—", "—", "Есть"], ["Анализ спроса", "Нет", "Нет", "Есть"], ["База Намангана", "Закрыта", "0", "Открыта"]],
+    l7: "План · смета · KPI",
+    money: [["18 млн", "сумов смета"], ["3 мес.", "до пилота"], ["Бесплатно", "для жителей · B2G"]],
+    tl: [["Нед. 1–3", "Остановки с GPS"], ["Нед. 3–5", "Приложение, 3 языка"], ["Нед. 6–8", "Маршруты, схема, релиз"], ["Нед. 9–12", "Пилот, 100+ польз."], ["Далее", "Живой GPS, Андижан"]],
+    kpis: [["100%", "маршрутов оцифровано"], ["< 1 с", "расчёт пути"], ["100+", "пилотных польз."], ["80%+", "нашли путь"]],
+    fauthor: "Расулов Фаррух · НамГТУ", fcontact: "Прототип работает: Android · iOS · веб", fmap: "Карта: © участники OpenStreetMap, OpenFreeMap · №5, №7, №9 — пример",
+  },
+};
+const lang = new URLSearchParams(location.search).get("lang") === "ru" ? "ru" : "uz";
+const L = T[lang];
+document.documentElement.lang = lang;
+const badge = (id, c) => `<span class="b" style="background:var(--${c})">${id}</span>`;
+document.getElementById("badges").innerHTML = ROUTES.map(([id, c]) => badge(id, c)).join("");
+document.querySelectorAll("[data-t]").forEach((e) => (e.innerHTML = L[e.dataset.t]));
+document.querySelectorAll("[data-list]").forEach((e) => (e.innerHTML = L[e.dataset.list].map((t) => `<li>${t}</li>`).join("")));
+document.querySelectorAll("[data-src]").forEach((e) => (e.src = `../assets/${e.dataset.src}_${lang}.png`));
+document.getElementById("stats").innerHTML = L.stats.map(([v, s], i) => `<div class="stat ${i === 3 ? "dark" : ""}"><b>${v}</b><span>${s}</span></div>`).join("");
+document.getElementById("chips").innerHTML = L.chips.map(([c, t]) => `<div class="chip"><i style="background:var(--${c})"></i>${t}</div>`).join("");
+document.getElementById("legend").innerHTML = ROUTES.map(([id, c]) => `<div>${badge(id, c)}<span>${L.names[id]} <em class="${["5","7","9"].includes(id) ? "" : "ok"}">· ${["5","7","9"].includes(id) ? L.demo : L.real}</em></span></div>`).join("");
+document.getElementById("steps").innerHTML = L.steps.map(([h, s], i) => `<div class="step"><div class="dot">${i + 1}</div><b>${h}</b><span>${s}</span></div>`).join("");
+document.getElementById("stack").innerHTML = L.stack.map(([c, h, s]) => `<div class="layer"><span class="b" style="background:var(--${c})"></span><div><b>${h}</b><span>${s}</span></div></div>`).join("");
+document.getElementById("tbl").innerHTML = L.tbl.map((r, ri) => `<tr>${r.map((c, ci) => ri === 0 ? `<th class="${ci === 3 ? "me" : ""}">${c}</th>` : `<td class="${ci === 3 ? "me" : ""}">${c}</td>`).join("")}</tr>`).join("");
+document.getElementById("money").innerHTML = L.money.map(([b, s]) => `<div><b>${b}</b><span>${s}</span></div>`).join("");
+document.getElementById("tl").innerHTML = L.tl.map(([b, s]) => `<div><b>${b}</b>${s}</div>`).join("");
+document.getElementById("kpis").innerHTML = L.kpis.map(([b, s]) => `<div><b>${b}</b><span>${s}</span></div>`).join("");
+</script>
+</body>
+</html>

@@ -1,0 +1,1392 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-14T09:53:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 301721693,
+  "lat": 41.0038768,
+  "lon": 71.6467154,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name:ru": "Поп, Чуст, Кукон питак",
+    "name:uz": "Pop, Chust Kukon pitak",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 301722995,
+  "lat": 40.9995907,
+  "lon": 71.6440269,
+  "tags": {
+    "esr": "741100",
+    "esr:user": "741100",
+    "name": "Namangan",
+    "name:ar": "نمنكان",
+    "name:de": "Namangan",
+    "name:en": "Namangan",
+    "name:ru": "Наманган",
+    "name:uz": "Namangan",
+    "name:uz-cyr": "Наманган",
+    "name:zh": "纳曼干",
+    "public_transport": "station",
+    "railway": "station",
+    "train": "yes",
+    "uic_ref": "2900940"
+  }
+},
+{
+  "type": "node",
+  "id": 2794036697,
+  "lat": 40.9805402,
+  "lon": 71.5883810,
+  "tags": {
+    "esr": "741007",
+    "esr:user": "741007",
+    "name": "Rovuston",
+    "name:en": "Raustan",
+    "name:ru": "Раустан",
+    "public_transport": "station",
+    "railway": "station",
+    "uic_ref": "2900957"
+  }
+},
+{
+  "type": "node",
+  "id": 4227832406,
+  "lat": 41.0041383,
+  "lon": 71.6812801,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Учкоргон питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4227845107,
+  "lat": 41.0002225,
+  "lon": 71.6124322,
+  "tags": {
+    "addr:street": "Ququmboy shoh ku'chasi",
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Косонсой пятак",
+    "name:en": "Kosonsoy patch",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4227858193,
+  "lat": 40.9952208,
+  "lon": 71.6745245,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Фергана,Маргилан пятак",
+    "name:en": "Margelan station",
+    "name:ru": "Фергана, Маргилан станция",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4227879989,
+  "lat": 40.9953766,
+  "lon": 71.6741569,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Андижан питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4237169090,
+  "lat": 40.9765108,
+  "lon": 71.7130693,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Хаккулобод пятак такси",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4237178748,
+  "lat": 40.9810087,
+  "lon": 71.7041473,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 4240727991,
+  "lat": 41.0057487,
+  "lon": 71.6350213,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Кожно-венерологическая больница"
+  }
+},
+{
+  "type": "node",
+  "id": 4244163060,
+  "lat": 41.0086025,
+  "lon": 71.6784060,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Нанай питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4244163061,
+  "lat": 41.0041541,
+  "lon": 71.6819167,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Уйчи питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4244174491,
+  "lat": 41.0023963,
+  "lon": 71.6768832,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Янгикургон питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4244174492,
+  "lat": 40.9911991,
+  "lon": 71.6670753,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Жомашуй,Тошбулок питак",
+    "name:en": "Jomashuy, Tashbulaq pitak",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4245913292,
+  "lat": 40.9941658,
+  "lon": 71.6762361,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Болалар стоматологияси",
+    "name:ru": "Детская стоматология"
+  }
+},
+{
+  "type": "node",
+  "id": 4319643190,
+  "lat": 40.9940504,
+  "lon": 71.6765040,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Наманган Вилоят қон қуйиш маркази",
+    "name:ru": "Областной центр переливания крови"
+  }
+},
+{
+  "type": "node",
+  "id": 4686674685,
+  "lat": 41.0026923,
+  "lon": 71.5961953,
+  "tags": {
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4716080097,
+  "lat": 41.0202825,
+  "lon": 71.6420431,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Хоразм ISUZU питак",
+    "name:en": "XORAZM ISUZU PITAK",
+    "name:ru": "Хоразм ISUZU питак",
+    "phone": "+998937575151",
+    "website": "http://www.isuzu770.uz"
+  }
+},
+{
+  "type": "node",
+  "id": 4832481022,
+  "lat": 41.0004582,
+  "lon": 71.6122947,
+  "tags": {
+    "addr:street": "Ququmboy shoh ku'chasi",
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Нурабад питак",
+    "name:ru": "Нурабад пятак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5040456623,
+  "lat": 41.0027018,
+  "lon": 71.6776247,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Фергана пятак",
+    "name:ru": "Фергана питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5490149978,
+  "lat": 40.9905242,
+  "lon": 71.7092501,
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "90",
+    "addr:postcode": "160114",
+    "addr:street": "Қодир Отамирзаев кўчаси",
+    "amenity": "hospital",
+    "email": "naminfek@mail.ru",
+    "healthcare": "hospital",
+    "healthcare:speciality": "infectious_diseases;general;laboratory",
+    "name": "Наманган вилоят юқумли касалликлари шифохонаси",
+    "phone": "+998 91 137-51-10"
+  }
+},
+{
+  "type": "node",
+  "id": 5492003622,
+  "lat": 41.0204318,
+  "lon": 71.6220107,
+  "tags": {
+    "amenity": "college",
+    "name": "мадраса Хидоят"
+  }
+},
+{
+  "type": "node",
+  "id": 5705058822,
+  "lat": 41.0022622,
+  "lon": 71.6718267,
+  "tags": {
+    "amenity": "theatre",
+    "name": "Отрытая сцена"
+  }
+},
+{
+  "type": "node",
+  "id": 6344153785,
+  "lat": 40.9975693,
+  "lon": 71.6669954,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Fargona margilon yangi pitak",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 6547274985,
+  "lat": 40.9766424,
+  "lon": 71.7121978,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Лола",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 6594101586,
+  "lat": 41.0042906,
+  "lon": 71.6699565,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Медцентр Anamed"
+  }
+},
+{
+  "type": "node",
+  "id": 6594101588,
+  "lat": 41.0043011,
+  "lon": 71.6706607,
+  "tags": {
+    "amenity": "university",
+    "name": "Namangan Davlat Universiteti"
+  }
+},
+{
+  "type": "node",
+  "id": 7140792486,
+  "lat": 40.9831216,
+  "lon": 71.6644818,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Больница"
+  }
+},
+{
+  "type": "node",
+  "id": 7561553085,
+  "lat": 40.9770223,
+  "lon": 71.7119477,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Доктор А клиникаси"
+  }
+},
+{
+  "type": "node",
+  "id": 9544355922,
+  "lat": 40.9997851,
+  "lon": 71.6246065,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name:ru": "Ташкент питак",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 10213663617,
+  "lat": 41.0278591,
+  "lon": 71.6354836,
+  "tags": {
+    "addr:street": "Оромгох конечка",
+    "amenity": "bus_station",
+    "name": "Оромгох конечка"
+  }
+},
+{
+  "type": "node",
+  "id": 10213665317,
+  "lat": 41.0248730,
+  "lon": 71.6412982,
+  "tags": {
+    "addr:street": "M.Polikovskiy koʻchasi",
+    "amenity": "hospital",
+    "name": "Онкология"
+  }
+},
+{
+  "type": "node",
+  "id": 10941989981,
+  "lat": 40.9806861,
+  "lon": 71.6213636,
+  "tags": {
+    "addr:street": "Hamid Olimjon ko'chasi",
+    "amenity": "hospital",
+    "name": "ИРВАДОН ДЕТСКИЙ БОЛЬНИЦА"
+  }
+},
+{
+  "type": "node",
+  "id": 10941990857,
+  "lat": 40.9804676,
+  "lon": 71.6214710,
+  "tags": {
+    "addr:street": "Hamid Olimjon ko'chasi",
+    "amenity": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 10961211305,
+  "lat": 41.0047053,
+  "lon": 71.7059205,
+  "tags": {
+    "addr:street": "To'qmoq guzari ko'chasi",
+    "amenity": "hospital",
+    "name": "Роддом Парцес",
+    "name:ru": "2 Роддом ТАХТАКУПРИК"
+  }
+},
+{
+  "type": "node",
+  "id": 11007048706,
+  "lat": 41.0105027,
+  "lon": 71.6183634,
+  "tags": {
+    "addr:street": "7- Mingchinor daha",
+    "amenity": "hospital",
+    "name": "ДОКТОР ФЕМИЛИ ПАХЛАВОН"
+  }
+},
+{
+  "type": "node",
+  "id": 11009544505,
+  "lat": 40.9995184,
+  "lon": 71.5891931,
+  "tags": {
+    "amenity": "hospital",
+    "name": "ГИШТ БОЛЬНИЦА 2 МИК",
+    "name:ru": "2 МИК ГИШТЛИ БОЛЬНИЦА"
+  }
+},
+{
+  "type": "node",
+  "id": 11035186405,
+  "lat": 41.0526394,
+  "lon": 71.7120488,
+  "tags": {
+    "addr:street": "Chortoq street",
+    "amenity": "bus_station",
+    "name": "МОШИНА БОЗОР ЧОРТОК ЙУЛИ"
+  }
+},
+{
+  "type": "node",
+  "id": 11082324105,
+  "lat": 41.0416328,
+  "lon": 71.6675185,
+  "tags": {
+    "addr:street": "Yuqori Bogishamol koʻchasi",
+    "amenity": "hospital",
+    "name": "СУВ ХОЖАЛИК БОЛЬНИЦА",
+    "name:ru": "СУВХОЖАЛИГИ БОЛЬНИЦА"
+  }
+},
+{
+  "type": "node",
+  "id": 11182488932,
+  "lat": 40.9970048,
+  "lon": 71.6712817,
+  "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+  }
+},
+{
+  "type": "node",
+  "id": 11311254069,
+  "lat": 41.0196264,
+  "lon": 71.6611232,
+  "tags": {
+    "addr:street": "Go'zal ko'chasi",
+    "amenity": "hospital",
+    "name": "ГУЗАЛ БОЛЬНИЦА"
+  }
+},
+{
+  "type": "node",
+  "id": 11333165169,
+  "lat": 41.0281620,
+  "lon": 71.6865988,
+  "tags": {
+    "name": "Кори почча",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11566440970,
+  "lat": 40.9933547,
+  "lon": 71.6345778,
+  "tags": {
+    "addr:street": "G'irvonsoy ko'chasi",
+    "amenity": "hospital",
+    "name": "ИЗОМЕД"
+  }
+},
+{
+  "type": "node",
+  "id": 12738703201,
+  "lat": 41.0077031,
+  "lon": 71.7113160,
+  "tags": {
+    "addr:street": "Uychi ko'chasi",
+    "amenity": "hospital",
+    "name": "Saxir balnisa"
+  }
+},
+{
+  "type": "node",
+  "id": 12810594501,
+  "lat": 41.0020351,
+  "lon": 71.5996414,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Андрология-Лор"
+  }
+},
+{
+  "type": "node",
+  "id": 13333907602,
+  "lat": 41.0214452,
+  "lon": 71.5648357,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Улфатлар Нон маркази"
+  }
+},
+{
+  "type": "node",
+  "id": 13333910801,
+  "lat": 41.0217273,
+  "lon": 71.5671315,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Билолий магазин"
+  }
+},
+{
+  "type": "node",
+  "id": 13338915401,
+  "lat": 41.0191516,
+  "lon": 71.6608389,
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 13339775701,
+  "lat": 40.9966633,
+  "lon": 71.6480133,
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 13781025475,
+  "lat": 41.0072148,
+  "lon": 71.6300947,
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "name": "NamDTU Rektorat"
+  }
+},
+{
+  "type": "way",
+  "id": 27035037,
+  "center": {
+    "lat": 41.0008333,
+    "lon": 71.6573212
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Kichkintoylar Bog'i",
+    "name:ru": "Детский парк \"Кичкинтой\""
+  }
+},
+{
+  "type": "way",
+  "id": 168103279,
+  "center": {
+    "lat": 41.0023293,
+    "lon": 71.6747104
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "316",
+    "addr:street": "Uychi ko’chasi",
+    "amenity": "university",
+    "email": "info@namspi.uz",
+    "name": "Namangan davlat pedagogika instituti",
+    "phone": "+998 69 211 10 97",
+    "website": "https://namspi.uz/"
+  }
+},
+{
+  "type": "way",
+  "id": 168103281,
+  "center": {
+    "lat": 41.0076353,
+    "lon": 71.6312500
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "12",
+    "addr:street": "Islom Karimov kochasi",
+    "amenity": "university",
+    "email": "namdtu_info@edu.uz",
+    "name": "Namangan davlat texnika universiteti",
+    "old_name": "Namangan muhandislik-qurilish instituti",
+    "website": "https://namdtu.uz/"
+  }
+},
+{
+  "type": "way",
+  "id": 168103283,
+  "center": {
+    "lat": 41.0079497,
+    "lon": 71.6382502
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "landuse": "retail",
+    "name": "Yangibozor",
+    "name:ru": "Рынок Янгибазар"
+  }
+},
+{
+  "type": "way",
+  "id": 168103297,
+  "center": {
+    "lat": 41.0007865,
+    "lon": 71.6763868
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "2",
+    "addr:street": "U.Nosir ko'chasi",
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "Alisher Navoiy teatri"
+  }
+},
+{
+  "type": "way",
+  "id": 171349418,
+  "center": {
+    "lat": 40.9979811,
+    "lon": 71.5987894
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Зелёный базар",
+    "name:en": "Green Bazaar"
+  }
+},
+{
+  "type": "way",
+  "id": 171363435,
+  "center": {
+    "lat": 40.9852834,
+    "lon": 71.6949917
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "130",
+    "addr:street": "Boburshoh koʻchasi",
+    "amenity": "college",
+    "building": "yes",
+    "name": "Namangan davlat universiteti"
+  }
+},
+{
+  "type": "way",
+  "id": 194581760,
+  "center": {
+    "lat": 40.9749281,
+    "lon": 71.7143370
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "roof",
+    "name": "Лола жахон бозори",
+    "name:de": "Namangan-Basar",
+    "name:ru": "Базар Лола жахон",
+    "source": "DuMont Reise-Handbuch Usbekistan"
+  }
+},
+{
+  "type": "way",
+  "id": 291155838,
+  "center": {
+    "lat": 40.9935455,
+    "lon": 71.6080385
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 291156406,
+  "center": {
+    "lat": 40.9981581,
+    "lon": 71.5986285
+  },
+  "tags": {
+    "amenity": "marketplace"
+  }
+},
+{
+  "type": "way",
+  "id": 291156436,
+  "center": {
+    "lat": 40.9984284,
+    "lon": 71.5964052
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Kamolot bog'i",
+    "name:ru": "парк Камолот",
+    "name:uz-cyr": "Камолот боғи"
+  }
+},
+{
+  "type": "way",
+  "id": 291162152,
+  "center": {
+    "lat": 40.9993192,
+    "lon": 71.6127009
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Diyor Savdo markazi",
+    "name:ru": "Диёр торговый центр",
+    "shop": "mall"
+  }
+},
+{
+  "type": "way",
+  "id": 337782824,
+  "center": {
+    "lat": 41.0097055,
+    "lon": 71.7118735
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "124",
+    "addr:street": "Uychi ko'chasi",
+    "amenity": "college",
+    "name": "NamDU qoshidagi 2-akademik litsey"
+  }
+},
+{
+  "type": "way",
+  "id": 342933818,
+  "center": {
+    "lat": 40.9999547,
+    "lon": 71.6497631
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "32",
+    "addr:street": "Amir Temur ko'chasi",
+    "amenity": "college",
+    "name": "TDYU huzuridagi Namangan viloyat akademik litseyi"
+  }
+},
+{
+  "type": "way",
+  "id": 369033569,
+  "center": {
+    "lat": 40.9647545,
+    "lon": 71.6640661
+  },
+  "tags": {
+    "amenity": "college",
+    "name": "Namangan tuman 5-son texnikumi",
+    "old_name": "Namangan sanoat va iqtisodiyot texnikumi"
+  }
+},
+{
+  "type": "way",
+  "id": 399917914,
+  "center": {
+    "lat": 41.0058296,
+    "lon": 71.6253858
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Больница",
+    "name:en": "Gospital",
+    "name:ru": "Госпиталь"
+  }
+},
+{
+  "type": "way",
+  "id": 399917916,
+  "center": {
+    "lat": 40.9967924,
+    "lon": 71.6719728
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Bobur bog'i",
+    "name:de": "Babur Park",
+    "name:ru": "Парк Бобура",
+    "name:uz-cyr": "Бобур боғи",
+    "natural": "wood",
+    "source": "DuMont Reise-Handbuch Usbekistan"
+  }
+},
+{
+  "type": "way",
+  "id": 399917918,
+  "center": {
+    "lat": 40.9918450,
+    "lon": 71.6664879
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Sardoba",
+    "name:ru": "Сардоба",
+    "name:uz-cyr": "Сардоба"
+  }
+},
+{
+  "type": "way",
+  "id": 399917920,
+  "center": {
+    "lat": 40.9916803,
+    "lon": 71.6641315
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "3",
+    "addr:street": "Alisher Navoiy ko'chasi",
+    "amenity": "college",
+    "name": "Namangan ixtisoslashtirilgan san'at maktabi",
+    "name:ru": "Namangan Specialized Art School",
+    "name:uz-cyr": "Сан'ат коллежи"
+  }
+},
+{
+  "type": "way",
+  "id": 422192627,
+  "center": {
+    "lat": 40.9975565,
+    "lon": 71.5928565
+  },
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "name": "Namangan davlat texnika universiteti",
+    "old_name": "Namangan muhandislik texnologiya instituti"
+  }
+},
+{
+  "type": "way",
+  "id": 424725175,
+  "center": {
+    "lat": 40.9887687,
+    "lon": 71.6390134
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Кардиология",
+    "name:ru": "Областной Кардиологический центр"
+  }
+},
+{
+  "type": "way",
+  "id": 424725177,
+  "center": {
+    "lat": 40.9852289,
+    "lon": 71.6982213
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Центральная родом",
+    "name:ru": "Центральный перинотальный центр"
+  }
+},
+{
+  "type": "way",
+  "id": 425265759,
+  "center": {
+    "lat": 41.0117167,
+    "lon": 71.6333330
+  },
+  "tags": {
+    "amenity": "college",
+    "disused": "yes",
+    "name": "Namangan davlat texnika universiteti"
+  }
+},
+{
+  "type": "way",
+  "id": 425316463,
+  "center": {
+    "lat": 41.0002341,
+    "lon": 71.5889297
+  },
+  "tags": {
+    "amenity": "hospital",
+    "barrier": "fence",
+    "healthcare": "hospital",
+    "name": "1- городская многопрофильная больница",
+    "name:ru": "1- городская многопрофильная больница",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "way",
+  "id": 425483956,
+  "center": {
+    "lat": 41.0121274,
+    "lon": 71.5928420
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "7",
+    "addr:street": "Kosonsoy ko’chasi",
+    "amenity": "university",
+    "name": "Namangan davlat texnika universiteti",
+    "note": "was merged into Namangan davlat texnika universiteti",
+    "old_name": "Namangan Muhandislik-Texnologiya Instituti"
+  }
+},
+{
+  "type": "way",
+  "id": 452349254,
+  "center": {
+    "lat": 41.0025765,
+    "lon": 71.6811283
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mullah Kyrgyz Madrassa",
+    "name:de": "Mullah-Kirgis-Medrese",
+    "name:ru": "Мулла Киргиз мадрасса",
+    "source": "DuMont Reise-Handbuch Usbekistan",
+    "start_date": "1910",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 470927727,
+  "center": {
+    "lat": 40.9801729,
+    "lon": 71.6225851
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Вилоят болалар шифохонаси",
+    "name:ru": "Детская областная больница"
+  }
+},
+{
+  "type": "way",
+  "id": 474600894,
+  "center": {
+    "lat": 40.9986643,
+    "lon": 71.5914176
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "1-городской родильный комплекс",
+    "name:ru": "1-городской родильный комплекс",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "way",
+  "id": 479023857,
+  "center": {
+    "lat": 41.0243988,
+    "lon": 71.6419560
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "Онкологическая больница",
+    "name:ru": "Онкологическая больница"
+  }
+},
+{
+  "type": "way",
+  "id": 524829991,
+  "center": {
+    "lat": 40.9946753,
+    "lon": 71.7027621
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "79",
+    "addr:street": "Qodir Otamirzayev koʻchasi",
+    "amenity": "college",
+    "name": "Namangan pedagogika kolleji",
+    "name:uz-cyr": "Наманган шаҳар ижтимоий-иқтисодий педагогика коллежи"
+  }
+},
+{
+  "type": "way",
+  "id": 560575723,
+  "center": {
+    "lat": 41.0023753,
+    "lon": 71.5612721
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Yangi O'zbekiston bog'i",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "way",
+  "id": 571178555,
+  "center": {
+    "lat": 40.9903705,
+    "lon": 71.7090243
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "90",
+    "addr:postcode": "160114",
+    "addr:street": "Қодир Отамирзаев",
+    "amenity": "hospital",
+    "email": "naminfek@mail.ru",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;emergency",
+    "name": "Наманган вилоят юқумли касалликлар шифохонаси",
+    "phone": "+998 91 137-51-10"
+  }
+},
+{
+  "type": "way",
+  "id": 624198255,
+  "center": {
+    "lat": 40.9991282,
+    "lon": 71.6843936
+  },
+  "tags": {
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Xo'ja Amin maqbarasi",
+    "name:de": "Amin-Hodscha-Mausoleum",
+    "source": "local knowledge;DuMont Reise-Handbuch Usbekistan",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 625100490,
+  "center": {
+    "lat": 41.0011244,
+    "lon": 71.6795450
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chorsu bazaar",
+    "name:en": "Chorsu bazaar",
+    "name:ru": "Чорсу базар",
+    "source": "DuMont Reise-Handbuch Usbekistan"
+  }
+},
+{
+  "type": "way",
+  "id": 1108094830,
+  "center": {
+    "lat": 40.9814675,
+    "lon": 71.7011064
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "161",
+    "addr:street": "Boburshoh koʻchasi",
+    "amenity": "university",
+    "email": "info@namdu.uz",
+    "name": "Namangan davlat universiteti",
+    "name:en": "Namangan State University",
+    "name:ru": "Наманганский государственный университет",
+    "phone": "+99869 210-01-35",
+    "website": "https://namdu.uz/"
+  }
+},
+{
+  "type": "way",
+  "id": 1108094832,
+  "center": {
+    "lat": 40.9836337,
+    "lon": 71.6102770
+  },
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "Janubiy aylanma yoʻli",
+    "amenity": "college",
+    "name": "Namangan to‘qimachilik sanoati instituti"
+  }
+},
+{
+  "type": "way",
+  "id": 1108431868,
+  "center": {
+    "lat": 41.0190735,
+    "lon": 71.6572658
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "14",
+    "addr:street": "Go'zal ko'chasi",
+    "amenity": "college",
+    "name": "2-son Namangan Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi",
+    "phone": "+99833 695 25 10",
+    "website": "https://2-namjst.uz/"
+  }
+},
+{
+  "type": "way",
+  "id": 1125830741,
+  "center": {
+    "lat": 41.0422758,
+    "lon": 71.5437258
+  },
+  "tags": {
+    "addr:street": "Yuksalish ko’chasi",
+    "amenity": "hospital",
+    "name": "Детская Больница Юксалиш",
+    "name:ru": "Детская Больница Юксалиш"
+  }
+},
+{
+  "type": "way",
+  "id": 1165229242,
+  "center": {
+    "lat": 41.0019768,
+    "lon": 71.6204542
+  },
+  "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+  }
+},
+{
+  "type": "way",
+  "id": 1295626327,
+  "center": {
+    "lat": 40.9795902,
+    "lon": 71.6504244
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Центр детской физиотерапии",
+    "name:ru": "Центр детской физиотерапии"
+  }
+},
+{
+  "type": "way",
+  "id": 1391809807,
+  "center": {
+    "lat": 41.0203494,
+    "lon": 71.5482420
+  },
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "email": "info@namsifl.uz",
+    "name": "Is'hoqhon Ibrat nomidagi Namangan davlat chet tillari instituti",
+    "phone": "+998 (69) 442-11-67",
+    "website": "https://www.namsifl.uz/"
+  }
+},
+{
+  "type": "way",
+  "id": 1505092530,
+  "center": {
+    "lat": 40.9994989,
+    "lon": 71.6696572
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "14",
+    "addr:postcode": "160136",
+    "addr:street": "Usmon Nosir ko'chasi",
+    "amenity": "college",
+    "education": "college",
+    "name": "Namangan Abu Ali ibn Sino nomidagi jamoat salomatligi texnikumi"
+  }
+},
+{
+  "type": "way",
+  "id": 1506317114,
+  "center": {
+    "lat": 40.9653098,
+    "lon": 71.6961800
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "111",
+    "addr:street": "Beshkapa ko'chasi",
+    "amenity": "university",
+    "building": "university",
+    "name": "University of Business and Science"
+  }
+},
+{
+  "type": "way",
+  "id": 1506864532,
+  "center": {
+    "lat": 41.0241778,
+    "lon": 71.5476213
+  },
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "name": "Namangan davlat universiteti"
+  }
+},
+{
+  "type": "way",
+  "id": 1506897942,
+  "center": {
+    "lat": 41.0026472,
+    "lon": 71.5875372
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "12",
+    "addr:street": "Sportchilar ko'chasi",
+    "amenity": "university",
+    "education": "university",
+    "name": "NamDTU Biznesni boshqarish fakulteti"
+  }
+},
+{
+  "type": "way",
+  "id": 1513070311,
+  "center": {
+    "lat": 41.0001655,
+    "lon": 71.5968563
+  },
+  "tags": {
+    "amenity": "college",
+    "education": "college",
+    "name": "Namangan olimpiya zahiralari kolleji"
+  }
+},
+{
+  "type": "way",
+  "id": 1513205880,
+  "center": {
+    "lat": 41.0190987,
+    "lon": 71.7149802
+  },
+  "tags": {
+    "amenity": "college",
+    "education": "college",
+    "name": "Namangan shahar 4-son texnikumi",
+    "old_name": "Namangan xizmat koʻrsatish va servis texnikumi"
+  }
+},
+{
+  "type": "way",
+  "id": 1513208002,
+  "center": {
+    "lat": 41.0055745,
+    "lon": 71.6795194
+  },
+  "tags": {
+    "amenity": "college",
+    "education": "college",
+    "name": "Namangan shahar 1-son texnikumi"
+  }
+},
+{
+  "type": "relation",
+  "id": 8436567,
+  "center": {
+    "lat": 41.0185958,
+    "lon": 71.6597441
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Гузал",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8436568,
+  "center": {
+    "lat": 41.0180008,
+    "lon": 71.6614460
+  },
+  "tags": {
+    "addr:street": "Гузаль",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Детская Больница",
+    "name:ru": "Детская Больница",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 12794618,
+  "center": {
+    "lat": 41.0031074,
+    "lon": 71.6177902
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Afsonalar Bog'i",
+    "name:ru": "Парк Афсона",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20804935,
+  "center": {
+    "lat": 40.9986621,
+    "lon": 71.6688102
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "41",
+    "addr:street": "N. Namongoniy ko'chasi",
+    "building": "yes",
+    "name": "Namangan viloyat tarixi va madaniyati davlat muzeyi",
+    "tourism": "museum",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20955746,
+  "center": {
+    "lat": 41.0033394,
+    "lon": 71.6613882
+  },
+  "tags": {
+    "addr:city": "Namangan",
+    "addr:housenumber": "9",
+    "addr:street": "N. Namongoniy ko'chasi",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Namangan Viloyat ko'p tarmoqli tibbiyot markazi",
+    "name:ru": "Областная больница",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
