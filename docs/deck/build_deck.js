@@ -21,8 +21,8 @@ const LINE = "E3E7EE";
 const TXT = {
   uz: {
     file: "Bekat_Taqdimot_UZ.pptx",
-    footer: "Bekat · Rasulov Farruh · NamDTU · 2026",
-    s1: { kicker: "“ENG YAXSHI KREATIV G‘OYA” RESPUBLIKA TANLOVI · 2026", title: "Bekat", sub: "Namangan avtobuslari uchun aqlli marshrut xaritasi", author: "Rasulov Farruh · Namangan davlat texnika universiteti" },
+    footer: "Bekat · Qodirov Ulug‘bek, Zamalitdinov Salimbek · NamDTU · 2026",
+    s1: { kicker: "“ENG YAXSHI KREATIV G‘OYA” RESPUBLIKA TANLOVI · 2026", title: "Bekat", sub: "Namangan avtobuslari uchun aqlli marshrut xaritasi", author: "Qodirov Ulug‘bek, Zamalitdinov Salimbek · NamDTU, 37-ATT guruhi (4-kurs)" },
     s2: { k: "MUAMMO", t: "“Qaysi avtobus? Qayerda almashaman?”",
       b: ["Shaharda yangi avtobuslar ko‘paymoqda, yo‘nalishlar qayta tuzilmoqda", "Manzilga to‘g‘ridan-to‘g‘ri avtobus bo‘lmasa, odamlar taksiga o‘tadi", "Almashinuvli yo‘lni sodda ko‘rsatadigan vosita yo‘q"],
       q: "Chorsudan Yuksalishga qanday boraman?" },
@@ -45,17 +45,17 @@ const TXT = {
       cards: [["Aholi", "Ilova bepul. Reklama faqat bekatlar atrofidagi mahalliy biznesdan."], ["Hokimlik va transport boshqarmasi", "Yillik B2G obuna: talab xaritasi, yo‘nalish o‘zgarishlari haqida xabar berish."], ["Tashuvchilar", "Ko‘proq yo‘lovchi; GPS ma’lumotlarini ulash orqali hamkorlik."]] },
     s11: { k: "REJA", t: "3 oyda: prototipdan pilotgacha",
       steps: [["1–3 hafta", "Barcha yo‘nalishlar va bekatlarni GPS bilan yig‘ish"], ["3–5 hafta", "Ilova karkasi, qidiruv, 3 til"], ["6–7 hafta", "Almashinuvli marshrut, oflayn"], ["8 hafta", "Sxema, 3D, reliz (APK + veb)"], ["9–12 hafta", "100+ foydalanuvchi bilan pilot"], ["Keyin", "Real vaqt GPS, Andijon, Farg‘ona"]] },
-    s12: { k: "SMETA", t: "18 mln so‘m", sub: "Eng katta qism — dala tadqiqoti va dizayn",
-      cats: ["Dala tadqiqoti", "3D dizayn", "Xarita xizmatlari", "Server (VPS)", "Pilot sinov", "Do‘kon akkauntlari", "Kutilmagan", "EHM guvohnomasi"], vals: [4.0, 3.0, 2.4, 2.1, 2.0, 1.6, 1.5, 1.4], unit: "mln so‘m" },
+    s12: { k: "SMETA", t: "40 mln so‘m", sub: "1-bosqich (startap): mobil ilova, dala tadqiqoti va pilot sinov",
+      cats: ["Mobil ilova (Flutter)", "Dala tadqiqoti (GPS)", "Algoritm (RAPTOR) & backend", "3D dizayn va metro sxemasi", "Server va xarita xizmatlari", "Pilot sinov (100+)", "Do‘kon akkauntlari", "EHM guvohnomasi va zaxira"], vals: [10.0, 8.0, 8.0, 3.5, 3.0, 3.0, 2.5, 2.0], unit: "mln so‘m" },
     s13: { k: "HOLAT VA KPI", t: "Prototip allaqachon ishlaydi",
       done: ["Ishlaydigan ilova: Android, iOS, veb", "6 yo‘nalish, 36 bekat, 69 joy qidiruvda", "Almashinuvli marshrut va metro sxemasi", "Avtomatik testlar: 7 / 7 o‘tdi"],
       kpi: [["100%", "shahar yo‘nalishlari raqamlashtiriladi"], ["< 1 s", "marshrut hisoblash"], ["100+", "faol pilot foydalanuvchi"], ["80%+", "“kerakli yo‘lni topdim”"]], kpiNote: "Maqsadli ko‘rsatkichlar — pilotdan keyin o‘lchanadi" },
-    s14: { t: "Bekat — Namangan bo‘ylab oson yo‘l", sub: "Hamkorlarni taklif qilamiz: shahar hokimligi, viloyat transport boshqarmasi, avtobus tashuvchilari", author: "Rasulov Farruh — loyiha muallifi", contact: "Telefon: [to‘ldiriladi] · E-mail: [to‘ldiriladi]" },
+    s14: { t: "Bekat — Namangan bo‘ylab oson yo‘l", sub: "Hamkorlarni taklif qilamiz: shahar hokimligi, viloyat transport boshqarmasi, avtobus tashuvchilari", author: "Qodirov Ulug‘bek — muallif · Zamalitdinov Salimbek — hammuallif", contact: "+998 90 555 80 91 · Dragonknight281101@gmail.com · github.com/SERBErGAME/Bekat" },
   },
   ru: {
     file: "Bekat_Prezentatsiya_RU.pptx",
-    footer: "Bekat · Расулов Фаррух · НамГТУ · 2026",
-    s1: { kicker: "РЕСПУБЛИКАНСКИЙ КОНКУРС «ЛУЧШАЯ КРЕАТИВНАЯ ИДЕЯ» · 2026", title: "Bekat", sub: "Умная карта автобусных маршрутов Намангана", author: "Расулов Фаррух · Наманганский государственный технический университет" },
+    footer: "Bekat · Кодиров Улугбек, Замалитдинов Салим · НамГТУ · 2026",
+    s1: { kicker: "РЕСПУБЛИКАНСКИЙ КОНКУРС «ЛУЧШАЯ КРЕАТИВНАЯ ИДЕЯ» · 2026", title: "Bekat", sub: "Умная карта автобусных маршрутов Намангана", author: "Кодиров Улугбек, Замалитдинов Салим · НамГТУ, группа 37-АТТ (4-курс)" },
     s2: { k: "ПРОБЛЕМА", t: "«Какой автобус? Где пересесть?»",
       b: ["В городе всё больше новых автобусов, маршруты меняются", "Если прямого автобуса нет, люди едут на такси", "Нет простого инструмента, который покажет путь с пересадками"],
       q: "Как доехать от Чорсу до Юксалиша?" },
@@ -78,12 +78,12 @@ const TXT = {
       cards: [["Жители", "Приложение бесплатно. Реклама только местного бизнеса у остановок."], ["Хокимият и транспортное управление", "Годовая B2G-подписка: карта спроса, оповещения об изменениях маршрутов."], ["Перевозчики", "Больше пассажиров; партнёрство через подключение GPS-данных."]] },
     s11: { k: "ПЛАН", t: "За 3 месяца: от прототипа до пилота",
       steps: [["Нед. 1–3", "Сбор всех маршрутов и остановок с GPS"], ["Нед. 3–5", "Каркас приложения, поиск, 3 языка"], ["Нед. 6–7", "Маршруты с пересадками, офлайн"], ["Нед. 8", "Схема, 3D, релиз (APK + веб)"], ["Нед. 9–12", "Пилот со 100+ пользователями"], ["Далее", "GPS в реальном времени, Андижан, Фергана"]] },
-    s12: { k: "СМЕТА", t: "18 млн сумов", sub: "Основная часть — полевое исследование и дизайн",
-      cats: ["Полевое исследование", "3D-дизайн", "Картографические сервисы", "Сервер (VPS)", "Пилот", "Аккаунты в магазинах", "Непредвиденные", "Свидетельство ЭВМ"], vals: [4.0, 3.0, 2.4, 2.1, 2.0, 1.6, 1.5, 1.4], unit: "млн сумов" },
+    s12: { k: "СМЕТА", t: "40 млн сумов", sub: "1-й этап (стартап): мобильное приложение, полевое исследование и пилот",
+      cats: ["Мобильное приложение (Flutter)", "Полевое исследование (GPS)", "Алгоритм (RAPTOR) и бэкенд", "3D-дизайн и схема метро", "Сервер и геосервисы", "Пилотный запуск (100+)", "Аккаунты в сторах", "Свидетельство ЭВМ и прочее"], vals: [10.0, 8.0, 8.0, 3.5, 3.0, 3.0, 2.5, 2.0], unit: "млн сумов" },
     s13: { k: "СТАТУС И KPI", t: "Прототип уже работает",
       done: ["Работающее приложение: Android, iOS, веб", "6 маршрутов, 36 остановок, 69 мест в поиске", "Маршруты с пересадками и схема метро", "Автотесты: 7 из 7 пройдены"],
       kpi: [["100%", "маршрутов города оцифровано"], ["< 1 с", "расчёт маршрута"], ["100+", "активных пилотных пользователей"], ["80%+", "«нашёл нужный путь»"]], kpiNote: "Целевые показатели — измеряются после пилота" },
-    s14: { t: "Bekat — простой путь по Намангану", sub: "Приглашаем партнёров: хокимият города, областное транспортное управление, перевозчиков", author: "Расулов Фаррух — автор проекта", contact: "Телефон: [заполнить] · E-mail: [заполнить]" },
+    s14: { t: "Bekat — простой путь по Намангану", sub: "Приглашаем партнёров: хокимият города, областное транспортное управление, перевозчиков", author: "Кодиров Улугбек — автор · Замалитдинов Салим — соавтор", contact: "+998 90 555 80 91 · Dragonknight281101@gmail.com · github.com/SERBErGAME/Bekat" },
   },
 };
 
@@ -298,6 +298,13 @@ async function build(lang) {
   s.addText(L.s14.sub, { x: 0.6, y: 2.55, w: 5.6, h: 0.9, fontSize: 15, color: "D6DAE2", margin: 0, isTextBox: true, valign: "top" });
   s.addText([{ text: L.s14.author, options: { bold: true, fontSize: 15, color: "FFFFFF", breakLine: true } }, { text: L.s14.contact, options: { fontSize: 12, color: "9AA1AE" } }],
     { x: 0.6, y: 4.1, w: 6, h: 0.8, margin: 0, isTextBox: true });
+
+  const qrPath = path.join(__dirname, "..", "..", "qr_bekat.png");
+  if (require("fs").existsSync(qrPath)) {
+    s.addImage({ path: qrPath, x: 7.1, y: 3.25, w: 1.5, h: 1.5 });
+    s.addText(lang === "uz" ? "Skaner qiling — ilovani yuklang" : "Сканируйте — скачайте приложение",
+      { x: 6.3, y: 4.82, w: 3.1, h: 0.35, fontSize: 10, color: "9AA1AE", align: "center", margin: 0, isTextBox: true });
+  }
 
   const out = path.join(__dirname, "..", L.file);
   await pres.writeFile({ fileName: out });
